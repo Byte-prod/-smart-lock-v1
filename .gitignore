@@ -1,0 +1,41 @@
+# ===== AI/工具内部目录（不上传）=====
+.claude/
+.playwright-mcp/
+.spec-workflow/
+
+# ===== PlatformIO 构建缓存和下载的库 =====
+.pio/
+.pioenvs/
+
+# ===== 敏感配置（ESP8266 真实 WiFi/MQTT 密码，绝不上传）=====
+secrets.h
+
+# ===== MounRiver Studio 工作区快照（IDE自动生成）=====
+.mrs/
+
+# ===== CH32 编译产物 =====
+CH32V307VCT/obj/
+*.o
+*.elf
+*.hex
+*.map
+*.lst
+*.bin
+
+# ===== 只上传核心4样，以下排除 =====
+# 远程控制里的 HTML 调试页面（只保留手机安装包）
+远程控制/mqtt-test.html
+远程控制/上位机.html
+远程控制/手机APP.html
+# 长文档（说明写在 README 里）
+智能门锁V1版项目详解.txt
+
+# ===== 常见IDE/系统文件 =====
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
