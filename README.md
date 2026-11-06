@@ -79,7 +79,7 @@ MQTT 服务器使用 [EMQX Cloud](https://cloud.emqx.com) 免费 Serverless 部�
 | MQTT_PASS | 对应的密码 |
 | DEVICE_ID | 设备 ID（主题为 `/lock/<DEVICE_ID>/up` 和 `/down`） |
 
-> `secrets.h` 已被 `.gitignore` 排除，**不会上传到仓库**，密码只有你自己知道。
+> `secrets.h` 已被 `.gitignore` 排除
 
 ### 2. 烧录固件
 
